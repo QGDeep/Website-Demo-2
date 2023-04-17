@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Program to get current weather data of some of the major
+cities in Canada.
+-->
+<html>
+    <head>
+        <title>Weather Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Sitedata.js"></script>
+    </head>
+    <body>
+        <h1>Canadian Weather Page</h1>
+        <div class="conatiner-fluid">
+            <!-- weather data -->
+            <div class="row-border">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="city">Select a city</label>
+                        <select id="city">
+                            <option value="">Select a city</option>
+                            <option value="6173331">Vancouver</option>
+                            <option value="5913490">Calgary</option>
+                            <option value="5946768">Edmonton</option>
+                            <option value="6141256">Saskatoon</option>
+                            <option value="6119109">Regina</option>
+                            <option value="6183235">Winnipeg</option>
+                            <option value="6167865">Toronto</option>
+                            <option value="6094817">Ottawa</option>
+                            <option value="6077243">Montreal</option>
+                            <option value="6325494">Quebec</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- display weather data -->
+            <div class="row-border">
+                <div class="col-sm-12">
+                    <div id="weather"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            ©2019 Queen Consolidated, Star City
+		</footer>
+    </body>
+</html>

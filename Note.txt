@@ -1,0 +1,1 @@
+Some Places do not have a wind gust value, therefore, undefined is shown instead.
